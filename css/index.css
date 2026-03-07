@@ -1,0 +1,22 @@
+.theme-light {
+  background-color: #faf9f6;
+  color: #333;
+}
+
+.theme-dark {
+  background-color: #768692;
+  color: #fff;
+}
+
+.projectpics {
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: "- ";
+}
+
+a {
+  color: black;
+}
