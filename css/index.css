@@ -17,6 +17,10 @@ ul {
   list-style-type: "- ";
 }
 
-a {
+.theme-light a {
   color: black;
+}
+
+.theme-dark a {
+  color: white;
 }
