@@ -23,9 +23,12 @@
           >
             <img
               src="../assests/github.svg"
+              data-light="../assests/github.svg"
+              data-dark="../assests/githubwhite.svg"
               alt="GitHub"
               width="40"
               height="40"
+              id="github"
             />
           </a>
         </li>
@@ -37,14 +40,74 @@
           >
             <img
               src="../assests/linkedin.svg"
+              data-light="../assests/linkedin.svg"
+              data-dark="../assests/linkedinwhite.svg"
               alt="LinkedIn"
               width="40"
               height="40"
+              id="linkedin"
             />
           </a>
         </li>
       </ul>
     </nav>
+    <div class="container padding-top-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h1>Homelab Environment</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h3>Info:</h3>
+          <p>
+            For this project, I set up a homelab environment using Proxmox VE
+            type 1 hypervisor that allows me to run multiple virtual machines on
+            a single physical server. I installed Proxmox on a Thinkpad laptop
+            and configured it to run virtual machines for sandboxing, local
+            media server, and DNS server. I also set up a pfSense firewall on a
+            Lenovo m920q to manage the network traffic between the virtual
+            machines and the internet. Utilizing a 3D printed bracket I
+            installed a 2.5gb NIC in the Lenovo m920q to allow for faster
+            network speeds between the virtual machines and the internet.
+          </p>
+          <p>
+            This homelab environment has allowed me to experiment with different
+            operating systems, software configurations, and network setups in a
+            controlled environment. It has also provided me with a platform to
+            learn about virtualization, containerization, networking, and system
+            administration while also serving as a testing ground for various
+            projects and ideas.
+          </p>
+          <p>
+            I plan on expanding the homelab environment to include more virtual
+            machines and additional networking equipment
+          </p>
+
+          <p>
+            Resources: Proxmox, pfSense, various Linux distributions, piHole,
+            physical hardware, docker
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container pb-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <img
+            src="../assests/firewall.jpeg"
+            alt="Lenovo mini pc and 3D printed bracket"
+            class="projectpics img-fluid w-100 d-block"
+          />
+        </div>
+      </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../javascript/darkmode.js"></script>
   </body>
 </html>
